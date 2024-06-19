@@ -1,0 +1,1119 @@
+{
+    "fileType": "excel",
+    "dataType": "file",
+    "data": {
+	    "creator": "fd2d980a4a5ce546a99e06251132aff7",
+	    "styles": {
+	        "headerborder": {
+	            "alignment": {
+	                "horizontal": "center"
+	            },
+	            "fill": {
+	                "bgColor": {
+	                    "argb": "ffa9a9a9"
+	                }
+	            }
+	        },
+	        "titleSty": {
+	            "font": {
+	                "size": 20,
+	                "color": {
+	                    "argb": "ff000000"
+	                },
+	                "bold": true
+	            },
+	            "alignment": {
+	                "vertical": "middle",
+	                "horizontal": "center"
+	            }
+	        },
+	        "footerSty": {
+	            "fill": {
+	                "bgColor": {
+	                    "argb": "ffff8c00"
+	                }
+	            }
+	        }
+	    },
+	    "sheets": [
+	        {
+	            "name": "屋苑總修葺記錄(迎海.星灣)",
+	            "startRowIndex": 1,
+	            "startColIndex": 1,
+	            "title": {
+	                "rowsData": [
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "index",
+	                        "endColKey": "remark",
+	                        "value": "屋苑總修葺記錄(迎海.星灣)",
+	                        "colStyleClass": [
+	                            "titleSty"
+	                        ]
+	                    }
+	                ]
+	            },
+	            "header": {
+	                "marginTopRows": 0,
+	                "cols": [
+	                    {
+	                        "colName": "-",
+	                        "colKey": "index",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "收樓日期",
+	                        "colKey": "untRepDate",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "收單日期",
+	                        "colKey": "collDate",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "苑廈",
+	                        "colKey": "ptyname",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "座",
+	                        "colKey": "block",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "樓",
+	                        "colKey": "floor",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "室",
+	                        "colKey": "unit",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "A單單號",
+	                        "colKey": "qcNo",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "開門方式",
+	                        "colKey": "openDoor",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "修葺項數",
+	                        "colKey": "repairItemNum",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "出單日期(交建築部)",
+	                        "colKey": "deliverDate",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "報修日期",
+	                        "colKey": "repairPeriod",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "14天到期日(收單起記)",
+	                        "colKey": "dueDate14",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "21天到期日(收單起記)",
+	                        "colKey": "dueDate21",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "未完成項數",
+	                        "colKey": "repairItemUnFinNum",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "完成率(%)",
+	                        "colKey": "repairItemFinRate",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "總回單日期",
+	                        "colKey": "totalRepDate",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "待料數目",
+	                        "colKey": "pendNum",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "回單待料",
+	                        "colKey": "hasPending",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "大門",
+	                        "colKey": "clmnPening1",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "木門",
+	                        "colKey": "clmnPening2",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "幕牆玻璃",
+	                        "colKey": "clmnPening3",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "欄河玻璃",
+	                        "colKey": "clmnPening4",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "雲石",
+	                        "colKey": "clmnPening5",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "等吊船清潔玻璃",
+	                        "colKey": "clmnPening6",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "冷氣機零件",
+	                        "colKey": "clmnPening7",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "其他",
+	                        "colKey": "clmnPening8",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "潔具",
+	                        "colKey": "clmnPening9",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "浴室間隔玻璃",
+	                        "colKey": "clmnPening10",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "鏡柜及配件",
+	                        "colKey": "clmnPening11",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "廚柜",
+	                        "colKey": "clmnPening12",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "露台/工作平台門玻璃及配件",
+	                        "colKey": "clmnPening13",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "活動窗玻璃",
+	                        "colKey": "clmnPening14",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "飾面玻璃/鏡片",
+	                        "colKey": "clmnPening15",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "鋼框",
+	                        "colKey": "clmnPening16",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "地板",
+	                        "colKey": "clmnPening17",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "電器",
+	                        "colKey": "clmnPening18",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "待料項目",
+	                        "colKey": "pendingItem",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "完成換料回單日期",
+	                        "colKey": "pendingRepDate",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "完工",
+	                        "colKey": "status",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    },
+	                    {
+	                        "colName": "備註",
+	                        "colKey": "remark",
+	                        "colStyleClass": [
+	                            "headerborder"
+	                        ]
+	                    }
+	                ]
+	            },
+	            "body": {
+	                "marginTopRows": 1,
+	                "rowsData": [
+	                    {
+	                        "rowMsg": {
+	                            "rowType": "group"
+	                        },
+	                        "data": {
+	                            "index": {
+	                                "colStyle": {
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffa9a9a9"
+	                                        }
+	                                    }
+	                                },
+	                                "value": "单类：重做單(COUNT=1)"
+	                            }
+	                        }
+	                    },
+	                    {
+	                        "rowMsg": {
+	                            "outlineLevel": 1
+	                        },
+	                        "data": {
+	                            "index": {
+	                                "value": "1",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "untRepDate": {
+	                                "value": "2020-01-01",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "collDate": {
+	                                "value": "2020-01-31",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "ptyname": {
+	                                "value": "迎海.星灣",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "block": {
+	                                "value": "19",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "floor": {
+	                                "value": "12",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "unit": {
+	                                "value": "G",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "qcNo": {
+	                                "value": "MACSS00026-R1",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "openDoor": {
+	                                "value": "電約",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffff00"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "repairItemNum": {
+	                                "value": 1,
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "deliverDate": {
+	                                "value": "2020-01-31",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "repairPeriod": {
+	                                "value": 71,
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffff0000"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "dueDate14": {
+	                                "value": "2020-02-14",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ff87ceeb"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "dueDate21": {
+	                                "value": "2020-02-21",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ff87ceeb"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "repairItemUnFinNum": {
+	                                "value": 1,
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "repairItemFinRate": {
+	                                "value": 0,
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "totalRepDate": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "pendNum": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "hasPending": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ff87ceeb"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening1": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening2": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening3": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening4": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening5": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening6": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening7": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening8": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening9": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening10": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening11": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening12": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening13": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening14": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening15": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening16": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening17": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "clmnPening18": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "pendingItem": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "pendingRepDate": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "status": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            },
+	                            "remark": {
+	                                "value": "",
+	                                "colStyle": {
+	                                    "alignment": {
+	                                        "wrapText": true
+	                                    },
+	                                    "fill": {
+	                                        "bgColor": {
+	                                            "argb": "ffffffff"
+	                                        }
+	                                    }
+	                                }
+	                            }
+	                        }
+	                    }
+	                ]
+	            },
+	            "footer": {
+	                "marginTopRows": 0,
+	                "rowsData": [
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "index",
+	                        "endColKey": "pendNum",
+	                        "value": 1,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "hasPending",
+	                        "endColKey": "hasPending",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening1",
+	                        "endColKey": "clmnPening1",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening2",
+	                        "endColKey": "clmnPening2",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening3",
+	                        "endColKey": "clmnPening3",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening4",
+	                        "endColKey": "clmnPening4",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening5",
+	                        "endColKey": "clmnPening5",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening6",
+	                        "endColKey": "clmnPening6",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening7",
+	                        "endColKey": "clmnPening7",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening8",
+	                        "endColKey": "clmnPening8",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening9",
+	                        "endColKey": "clmnPening9",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening10",
+	                        "endColKey": "clmnPening10",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening11",
+	                        "endColKey": "clmnPening11",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening12",
+	                        "endColKey": "clmnPening12",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening13",
+	                        "endColKey": "clmnPening13",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening14",
+	                        "endColKey": "clmnPening14",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening15",
+	                        "endColKey": "clmnPening15",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening16",
+	                        "endColKey": "clmnPening16",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening17",
+	                        "endColKey": "clmnPening17",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    },
+	                    {
+	                        "rowIndex": 1,
+	                        "rowHeight": 20,
+	                        "fromColKey": "clmnPening18",
+	                        "endColKey": "clmnPening18",
+	                        "value": 0,
+	                        "colStyleClass": [
+	                            "footerSty"
+	                        ]
+	                    }
+	                ]
+	            }
+	        }
+	    ]
+    }
+}

@@ -1,0 +1,470 @@
+{
+	"outFileName": "D:/Henderson/testChqDomcument/outFile.pdf",
+	"Space": {
+		"top": 16,
+		"left": 46,
+		"bottom": 30,
+		"right": 30
+	},
+	"Style": {
+		"fontClass": {
+			"font": "Deng"
+		},
+		"testClass": {
+			"font": "Dengb",
+			"fontSize": 18
+		},
+		"listLable": {
+			"isContinued": true
+		},
+		"listValue": {
+			"padding": {
+				"left": 16
+			}
+		}
+	},
+	"Title": [],
+	"Header": [],
+	"Body": [
+        {
+            "Type": "Image",
+            "Obj": {
+                "url": "D:/jacky/documentationProject/my-project/assets/img/hld.jpg",
+                "X": -16,
+                "Y": 0,
+                "StyleName": [
+                    
+                ],
+                "ColStyle": {
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 40,
+                "X": -80,
+                "Value": "建築部-完成工程報告",
+                "ColStyle": {
+                    "fontSize": 18,
+                    "align": "center",
+                    "font": "Dengb"
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 60,
+                "Value": "建築部編號 :",
+                "StyleName": [
+                    "listLable"
+                ]
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "X": 16,
+                "Value": "MACSS00229",
+                "StyleName": [
+                    "listValue"
+                ],
+                "ColStyle": {
+                    "width": 250,
+                    "border": {
+                        "bottom": "1 #000 1"
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 6,
+                "Value": "出單部門 :",
+                "StyleName": [
+                    "listLable"
+                ]
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "X": 16,
+                "Value": "營業部-客務組",
+                "StyleName": [
+                    "listValue"
+                ],
+                "ColStyle": {
+                    "width": 250,
+                    "border": {
+                        "bottom": "1 #000 1"
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 6,
+                "Value": "屋苑名稱 :",
+                "StyleName": [
+                    "listLable"
+                ]
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "X": 16,
+                "Value": "利奧坊，凱岸1樓SHOP 1701室",
+                "StyleName": [
+                    "listValue"
+                ],
+                "ColStyle": {
+                    "width": 360,
+                    "border": {
+                        "bottom": "1 #000 1"
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 6,
+                "Value": "工程已於",
+                "ColStyle": {
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "X": 6,
+                "Value": "2020-02-27",
+                "ColStyle": {
+                    "isContinued": true,
+                    "underLine": {
+                        "width": 160
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Value": "全部徹底完成，並報告如下："
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Value": "工作摘要",
+                "ColStyle": {
+                    "border": {
+                        "bottom": "1 #000 1"
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 10,
+                "Value": "完工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見完工單技術意見",
+                "ColStyle": {
+                    "underLine": {
+                        "rowCount": 5,
+                        "rowHeight": 25
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 6,
+                "Value": "備註：",
+                "ColStyle": {
+                    "border": {
+                        "bottom": "1 #000 1"
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Y": 10,
+                "Value": "",
+                "ColStyle": {
+                    "underLine": {
+                        "rowCount": 2,
+                        "rowHeight": 25
+                    }
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Value": "修葺原因 ：",
+                "ColStyle": {
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Checkbox",
+            "Obj": {
+                "ColStyle": {
+                    "margins": {
+                        "left": 6
+                    }
+                },
+                "CheckData": [
+                    {
+                        "isChecked": true,
+                        "value": "欠缺保養"
+                    },
+                    {
+                        "isChecked": true,
+                        "value": "日常損耗"
+                    },
+                    {
+                        "isChecked": true,
+                        "value": "施工手尾"
+                    },
+                    {
+                        "isChecked": false,
+                        "value": "質量欠佳"
+                    },
+                    {
+                        "isChecked": false,
+                        "value": "設計不善"
+                    },
+                    {
+                        "isChecked": false,
+                        "value": "其他"
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Value": "完成以上工時支出 ：",
+                "ColStyle": {
+                    "font": "Dengb",
+                    "underLine": {
+                        
+                    },
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Value": "(請填寫工數或工時)"
+            }
+        },
+        {
+            "Type": "Grid",
+            "Obj": {
+                "Y": 6,
+                "Title": {
+                    
+                },
+                "Columns": {
+                    "data": [
+                        {
+                            "Value": "管工工數",
+                            "ColStyle": {
+                                "width": 60
+                            }
+                        },
+                        {
+                            "Value": "技工工數",
+                            "ColStyle": {
+                                "width": 80
+                            }
+                        }
+                    ],
+                    "keys": [
+                        "key1",
+                        "key2"
+                    ],
+                    "ColStyle": {
+                        "dataRowHeight": 30,
+                        "isContinuedNext": true
+                    }
+                },
+                "GridData": [
+                    {
+                        "key1": "",
+                        "key2": ""
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Grid",
+            "Obj": {
+                "X": 6,
+                "Y": 10,
+                "Title": {
+                    
+                },
+                "Columns": {
+                    "data": [
+                        {
+                            "Value": "管工工數",
+                            "ColStyle": {
+                                "width": 60
+                            }
+                        },
+                        {
+                            "Value": "技工工數",
+                            "ColStyle": {
+                                "width": 80
+                            }
+                        },
+                        {
+                            "Value": "TESTchq",
+                            "ColStyle": {
+                                "width": 80
+                            }
+                        }
+                    ],
+                    "keys": [
+                        "key1",
+                        "key2"
+                    ],
+                    "ColStyle": {
+                        "dataRowHeight": 30,
+                        "isRowFollowX": true
+                    }
+                },
+                "GridData": [
+                    {
+                        "key1": "",
+                        "key2": ""
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "X": 6,
+                "Y": 6,
+                "Value": "另附支出 :",
+                "ColStyle": {
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Checkbox",
+            "Obj": {
+                "X": 10,
+                "ColStyle": {
+                    
+                },
+                "CheckData": [
+                    {
+                        "isChecked": true,
+                        "value": "大合約（2020-B.S.C.-維修用之棚架）"
+                    },
+                    {
+                        "isChecked": false,
+                        "value": "約外（ ）",
+                        "ColStyle": {
+                            "margins": {
+                                "left": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Grid",
+            "Obj": {
+                "Y": 6,
+                "Title": {
+                    
+                },
+                "Columns": {
+                    "data": [
+                        "建築部意見"
+                    ],
+                    "keys": [
+                        "key1"
+                    ],
+                    "ColStyle": {
+                        "dataRowHeight": 100
+                    }
+                },
+                "GridData": [
+                    {
+                        "key1": ""
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "X": 20,
+                "Y": 6,
+                "Value": "負責管工 ：",
+                "ColStyle": {
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Value": "陳嘉瑜",
+                "ColStyle": {
+                    "width": 100,
+                    "border": {
+                        "bottom": "1 #000 1"
+                    },
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "X": 100,
+                "Value": "報告日期 ：",
+                "ColStyle": {
+                    "isContinued": true
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Obj": {
+                "Value": "2020-03-04",
+                "ColStyle": {
+                    "width": 100,
+                    "border": {
+                        "bottom": "1 #000 1"
+                    }
+                }
+            }
+        }
+    ],
+	"Footer": []
+}
+

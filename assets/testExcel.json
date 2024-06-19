@@ -1,0 +1,2065 @@
+{
+    "Style": {
+        "titleClass": {
+            "alignment": {
+                "horizontal": "center",
+                "vertical": "middle"
+            },
+            "font": {
+                "bold": true,
+                "color": {
+                    "argb": "ffffff"
+                },
+                "size": 16
+            },
+            "fill": {
+                "type": "pattern",
+                "pattern": "solid",
+                "fgColor": {
+                    "argb": "000000"
+                }
+            }
+        },
+        "headerClass": {
+            "alignment": {
+                "wrapText": true
+            },
+            "font": {
+                "bold": true
+            },
+            "border": {
+                "top": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "000000"
+                    }
+                },
+                "left": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "000000"
+                    }
+                },
+                "bottom": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "000000"
+                    }
+                },
+                "right": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "000000"
+                    }
+                }
+            },
+            "fill": {
+                "type": "pattern",
+                "pattern": "solid",
+                "fgColor": {
+                    "argb": "dddddd"
+                }
+            }
+        },
+        "bodyClass": {
+            "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+            },
+            "border": {
+                "top": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                },
+                "left": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                },
+                "bottom": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                },
+                "right": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                }
+            }
+        },
+        "footerClass": {
+            "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+            },
+            "border": {
+                "top": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                },
+                "left": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                },
+                "bottom": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                },
+                "right": {
+                    "style": "thin",
+                    "color": {
+                        "argb": "cccccc"
+                    }
+                }
+            }
+        }
+    },
+    "Sheets": [
+        {
+            "SheetName": "驗樓時間表_20200709(維峯‧浚匯- ",
+            "Columns": [
+                {
+                    "key": "zone",
+                    "width": 5
+                },
+                {
+                    "key": "floor",
+                    "width": 12
+                },
+                {
+                    "key": "dptName",
+                    "width": 15
+                },
+                {
+                    "key": "SCSchedule",
+                    "width": 12
+                },
+                {
+                    "key": "SCActual",
+                    "width": 12
+                },
+                {
+                    "key": "inSchDate1",
+                    "width": 12
+                },
+                {
+                    "key": "inActDate1",
+                    "width": 12
+                },
+                {
+                    "key": "drSchDate1",
+                    "width": 12
+                },
+                {
+                    "key": "drActDate1",
+                    "width": 12
+                },
+                {
+                    "key": "inSchDate2",
+                    "width": 12
+                },
+                {
+                    "key": "inActDate2",
+                    "width": 12
+                },
+                {
+                    "key": "drSchDate2",
+                    "width": 12
+                },
+                {
+                    "key": "drActDate2",
+                    "width": 12
+                },
+                {
+                    "key": "HOSchedule",
+                    "width": 12
+                },
+                {
+                    "key": "ILCSchedule",
+                    "width": 12
+                }
+            ],
+            "startRowIndex": 1,
+            "startCellIndex": 1,
+            "sheetData": [
+                {
+                    "rowConfig": {
+                        "height": 36
+                    },
+                    "styleClass": [
+                        "titleClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "維峯‧浚匯- -Tentative Schedule of Unit Inspection and Handover",
+                            "fromCellKey": "zone",
+                            "endCellKey": "ILCSchedule"
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "headerClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "zone",
+                            "value": "Zone"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "Floor"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "Dept"
+                        },
+                        {
+                            "value": [
+                                {
+                                    "rowConfig": {
+                                        "height": 30
+                                    },
+                                    "styleClass": [
+                                        "headerClass"
+                                    ],
+                                    "values": [
+                                        {
+                                            "value": "Site Work Complete",
+                                            "fromCellKey": "SCSchedule",
+                                            "endCellKey": "SCActual"
+                                        },
+                                        {
+                                            "value": "Handover Team 1st Inspection",
+                                            "fromCellKey": "inSchDate1",
+                                            "endCellKey": "inActDate1"
+                                        },
+                                        {
+                                            "value": "Defect Rectification Completion",
+                                            "fromCellKey": "drSchDate1",
+                                            "endCellKey": "drActDate1"
+                                        },
+                                        {
+                                            "value": "Handover Team 2nd Inspection",
+                                            "fromCellKey": "inSchDate2",
+                                            "endCellKey": "inActDate2"
+                                        },
+                                        {
+                                            "value": "Defect Rectification Completion",
+                                            "fromCellKey": "drSchDate2",
+                                            "endCellKey": "drActDate2"
+                                        },
+                                        {
+                                            "key": "HOSchedule",
+                                            "value": "Ready for Handoer to Owner"
+                                        },
+                                        {
+                                            "key": "ILCSchedule",
+                                            "value": "Issuance of Letter"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "rowConfig": {
+                                        "height": 20
+                                    },
+                                    "styleClass": [
+                                        "headerClass"
+                                    ],
+                                    "values": [
+                                        {
+                                            "key": "SCSchedule",
+                                            "value": "Schedule"
+                                        },
+                                        {
+                                            "key": "SCActual",
+                                            "value": "Actual"
+                                        },
+                                        {
+                                            "key": "inSchDate1",
+                                            "value": "Schedule"
+                                        },
+                                        {
+                                            "key": "inActDate1",
+                                            "value": "Actual"
+                                        },
+                                        {
+                                            "key": "drSchDate1",
+                                            "value": "Schedule"
+                                        },
+                                        {
+                                            "key": "drActDate1",
+                                            "value": "Actual"
+                                        },
+                                        {
+                                            "key": "inSchDate2",
+                                            "value": "Schedule"
+                                        },
+                                        {
+                                            "key": "inActDate2",
+                                            "value": "Actual"
+                                        },
+                                        {
+                                            "key": "drSchDate2",
+                                            "value": "Schedule"
+                                        },
+                                        {
+                                            "key": "drActDate2",
+                                            "value": "Actual"
+                                        },
+                                        {
+                                            "key": "HOSchedule",
+                                            "value": "Schedule"
+                                        },
+                                        {
+                                            "key": "ILCSchedule",
+                                            "value": "Schedule"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "zone",
+                            "value": "5"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "30"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "26/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": "26/05/2020"
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "29/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": "26/05/2020"
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "21/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "17/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": "01/05/2020"
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "29"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "29/05/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "01/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "23/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "20/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "1",
+                            "fromCellKey": "zone",
+                            "endCellKey": "zone",
+                            "mergeRows": -2,
+                            "styleCol": {
+                                "alignment": {
+                                    "horizontal": "left",
+                                    "vertical": "top"
+                                }
+                            }
+                        },
+                        {
+                            "key": "zone",
+                            "value": "1"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "28"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "其他"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "29/05/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "01/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "23/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "20/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "27"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "05/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "08/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "30/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "27/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "26"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "05/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "08/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "30/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "27/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "25"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "05/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "08/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "30/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "27/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "23"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部一客務組"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "05/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "08/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "30/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "27/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "2",
+                            "fromCellKey": "zone",
+                            "endCellKey": "zone",
+                            "mergeRows": -5,
+                            "styleCol": {
+                                "alignment": {
+                                    "horizontal": "left",
+                                    "vertical": "top"
+                                }
+                            }
+                        },
+                        {
+                            "key": "zone",
+                            "value": "2"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "22"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "地產策劃部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "05/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "08/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "30/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "27/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "21"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "12/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "15/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "07/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "03/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "20"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "12/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "15/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "07/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "03/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "3",
+                            "fromCellKey": "zone",
+                            "endCellKey": "zone",
+                            "mergeRows": -3,
+                            "styleCol": {
+                                "alignment": {
+                                    "horizontal": "left",
+                                    "vertical": "top"
+                                }
+                            }
+                        },
+                        {
+                            "key": "zone",
+                            "value": "3"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "19"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "12/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "15/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "07/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "03/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "zone",
+                            "value": "1"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "18"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "29/05/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "01/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "23/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "20/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "17"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部一客務組"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "12/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "15/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "07/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "03/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "3",
+                            "fromCellKey": "zone",
+                            "endCellKey": "zone",
+                            "mergeRows": -2,
+                            "styleCol": {
+                                "alignment": {
+                                    "horizontal": "left",
+                                    "vertical": "top"
+                                }
+                            }
+                        },
+                        {
+                            "key": "zone",
+                            "value": "3"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "16"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "其他"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "12/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "15/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "07/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "03/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "15"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "19/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "22/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "14/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "10/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "12"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "19/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "22/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "14/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "10/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "11"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "19/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "22/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "14/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "10/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "10"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "19/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "22/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "14/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "10/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "4",
+                            "fromCellKey": "zone",
+                            "endCellKey": "zone",
+                            "mergeRows": -5,
+                            "styleCol": {
+                                "alignment": {
+                                    "horizontal": "left",
+                                    "vertical": "top"
+                                }
+                            }
+                        },
+                        {
+                            "key": "zone",
+                            "value": "4"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "9"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "地產策劃部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "19/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "22/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "14/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "10/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "8"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "物業管理部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "26/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "28/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "20/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "17/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "floor",
+                            "value": "7"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部一客務組"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "26/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "29/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "21/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "17/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "5",
+                            "fromCellKey": "zone",
+                            "endCellKey": "zone",
+                            "mergeRows": -3,
+                            "styleCol": {
+                                "alignment": {
+                                    "horizontal": "left",
+                                    "vertical": "top"
+                                }
+                            }
+                        },
+                        {
+                            "key": "zone",
+                            "value": "5"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "6"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "其他"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "26/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "29/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "21/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "17/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "key": "zone",
+                            "value": "1"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "5"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "其他"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "29/05/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "01/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "23/06/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "20/07/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 20
+                    },
+                    "styleClass": [
+                        "bodyClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "5",
+                            "fromCellKey": "zone",
+                            "endCellKey": "zone",
+                            "mergeRows": -1,
+                            "styleCol": {
+                                "alignment": {
+                                    "horizontal": "left",
+                                    "vertical": "top"
+                                }
+                            }
+                        },
+                        {
+                            "key": "zone",
+                            "value": "5"
+                        },
+                        {
+                            "key": "floor",
+                            "value": "3"
+                        },
+                        {
+                            "key": "dptName",
+                            "value": "營業部"
+                        },
+                        {
+                            "key": "SCSchedule",
+                            "value": "26/06/2020"
+                        },
+                        {
+                            "key": "SCActual",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate1",
+                            "value": "29/06/2020"
+                        },
+                        {
+                            "key": "inActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate1",
+                            "value": ""
+                        },
+                        {
+                            "key": "inSchDate2",
+                            "value": "21/07/2020"
+                        },
+                        {
+                            "key": "inActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drSchDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "drActDate2",
+                            "value": ""
+                        },
+                        {
+                            "key": "HOSchedule",
+                            "value": "17/08/2020"
+                        },
+                        {
+                            "key": "ILCSchedule",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "rowConfig": {
+                        "height": 40
+                    },
+                    "styleClass": [
+                        "footerClass"
+                    ],
+                    "values": [
+                        {
+                            "value": "備註：Remark for schedule",
+                            "fromCellKey": "zone",
+                            "endCellKey": "ILCSchedule"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

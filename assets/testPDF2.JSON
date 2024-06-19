@@ -1,0 +1,32 @@
+{
+    "Type":"ImageGroup",
+    "data":[
+        {
+            "groupName":"image1",
+            "Y":26,
+            "groupNameStyle":{"width":45},
+            "imgsData":{
+                "width":80,
+                "height":80,
+                "itemX":16,
+                "imgAry":[
+                    {
+                        "url":"D:/jacky/documentationProject/my-project/assets/img/002.jpg",
+                        "link":"http://www.baidu.com/",
+                        "title":"Image-name"
+                    },
+                    {
+                        "url":"D:/jacky/documentationProject/my-project/assets/img/002.jpg",
+                        "link":"http://www.baidu.com/",
+                        "title":"Image-name"
+                    },
+                    {
+                        "url":"D:/jacky/documentationProject/my-project/assets/img/002.jpg",
+                        "link":"http://www.baidu.com/",
+                        "title":"Image-name"
+                    }
+                ]
+            }
+        }
+    ]
+}

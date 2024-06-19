@@ -1,0 +1,31 @@
+{
+    "outFileName": "D:/Henderson/testChqDomcument/outFile.pdf",
+	"Space": {
+		"top": 36,
+		"left": 16,
+		"bottom": 16,
+		"right": 16
+    },
+    "Style":{
+        "fontClass": {
+			"font": "Dengb"
+		}
+    },
+    "Body":[
+        {
+            "Type":"Text",
+            "Obj":{
+                "Value":"Image1",
+                "ColStyle":{
+                    "border":"1 bule 1",
+                    "padding":{
+                        "left":8,
+                        "right":8,
+                        "top":36,
+                        "bottom":36
+                      }
+                }
+            }
+        }
+    ]
+}

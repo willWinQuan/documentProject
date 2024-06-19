@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test iframe-pdf 打印</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.6/axios.min.js"></script>
+</head>
+<body>
+    <div id="box">
+        <h1>test iframe-pdf 打印</h1>
+
+    </div>
+    <script>
+        axios.post('/getFile',{
+            fileType:"docxToPdf",
+            dataType:"buff",
+            inputFileName:"D:/Ricardo/documentationProject/my-project/doc/testMod01-.docx",
+            data:{
+                date:"2023-06-14 12:56",
+                noNumber:"1235123",
+                fromUser:"陈海泉",
+                untDesc:"9#住宅楼 9层901",
+                payType:"房款",
+                payMoney:"￥100",
+                payMoneyTC:"壹佰零元整",
+                payWay:"转账",
+            }
+        })
+        .then(res=>{
+            return res.data
+        })
+        .then(result=>{
+            if(result.status){ //pdf buff
+                //console.log("result:",result)
+                const url = window.URL.createObjectURL(new Blob([new Uint8Array(result.data.data)],{type:"application/pdf"}));
+                let iframeDom =document.createElement('iframe')
+                iframeDom.src=url;
+                iframeDom.width="100%"
+                iframeDom.height="800"
+                iframeDom.frameBorder="0"
+                iframeDom.style="border:0"
+                document.getElementById('box').appendChild(iframeDom)
+            }
+        })
+    </script>
+</body>
+</html>
