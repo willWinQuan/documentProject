@@ -317,8 +317,8 @@ class instanceMethod {
                 this.tagTDom[tagTDomIndex].childNodes[0].data += valAry[i];
             }
             if (i > 0) {
-                this.tagTDom[tagTDomIndex].appendChild(this.stringToXml("<w:br/>"));
-                this.tagTDom[tagTDomIndex].appendChild(this.stringToXml("<w:t>" + valAry[i] + "</w:t>"));
+                this.tagTDom[tagTDomIndex].parentNode.appendChild(this.stringToXml("<w:br/>"));
+                this.tagTDom[tagTDomIndex].parentNode.appendChild(this.stringToXml("<w:t>" + valAry[i] + "</w:t>"));
             }
         }
     }
